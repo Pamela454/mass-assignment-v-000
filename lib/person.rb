@@ -5,6 +5,8 @@ class Person
 :wrist_size, :glove_size, :pant_length, :pant_width
 
   def initialize(name, hair_color)
+    @name = name
+    @hair_color = hair_color
   end
 
 
